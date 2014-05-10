@@ -37,8 +37,8 @@ cacheSolve <- function(x, ...) {
 
 # Example
 # creation of a matrix for test purpose
-m <- matrix(rnorm(16), nrow=4, ncol=4)
-myCachableMatrix <- makeCacheMatrix(m)
-cacheSolve(myCachableMatrix)
-myCachableMatrix$get()
-myCachableMatrix$getinverse()
+# m <- matrix(rnorm(16), nrow=4, ncol=4)
+# myCachableMatrix <- makeCacheMatrix(m)
+# cacheSolve(myCachableMatrix)
+# myCachableMatrix$get()
+# myCachableMatrix$getinverse()
